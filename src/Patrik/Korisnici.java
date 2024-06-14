@@ -164,6 +164,12 @@ public class Korisnici {
         JLabel lblAgencyPassword = new JLabel("Lozinka");
         lblAgencyPassword.setBounds(482, 192, 79, 14);
         frmCloudEstate.getContentPane().add(lblAgencyPassword);
+
+        // New JLabel
+        JLabel lblFooter = new JLabel("CloudEstate je najbolji (izmjena)");
+        lblFooter.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 20));
+        lblFooter.setBounds(300, 500, 250, 30);
+        frmCloudEstate.getContentPane().add(lblFooter);
     }
 
     private boolean validateUser(String email, String password) {
